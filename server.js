@@ -85,3 +85,4 @@ app.get("/mensagem-erro-async", async (req, res) => {
         res.status(500).json({ erro: erro.message });
     }
 });
+
